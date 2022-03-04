@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(99, 93, 93);
+    font-size: 1em;
+    line-height: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 640px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.734);
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 15px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+form input:focus {
+    outline: 1px solid red;
+}
+
+form button {
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(44, 55, 116);
+    color: #fff;
+    font-size: 12px;    
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(7, 221, 79);
+    padding: 10px 15px;
+}
+
+.bad {
+    background: rgb(220, 9, 9)
+}
